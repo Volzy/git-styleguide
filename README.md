@@ -20,9 +20,28 @@ TODO: Write about less restrictive local commits before rewriting your history w
 ```
 
 #### Summary (mandatory)
-- [x] Summarize in max 50 characters
-- [x] Use present tense (e.g. "Add", "Remove", "Fix", "Refactor")
-- [x] Include scope (e.g. "Payout module" or "User Login")
+Summarize in max 50 characters
+
+> Why? Because this keeps summaries trimmed and overview using `git log --oneline`
+
+Use present tense (e.g. "Add", "Remove", "Fix", "Refactor")
+
+> Why? Because Git per default uses present tense, so you get a cleaner commit history between your own commits and Git merge
+
+```
+// Bad
+Adding validation
+
+// Bad
+Added validation
+
+// Good
+Add validation
+```
+
+Include scope (e.g. "Payout module" or "User Login")
+
+> Why? Because this increases understanding of what your commit has changes to
 
 #### Body (optional)
 - [x] Text wrapped to 72 charaters per line
