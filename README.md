@@ -22,7 +22,7 @@ TODO: Write about less restrictive local commits before rewriting your history w
 #### Summary (mandatory)
 Summarize in max 50 characters
 
-> Why? Because this keeps summaries trimmed and overview using `git log --oneline`
+> Why? Because this keeps summaries trimmed and keep a nice overview using `git log --oneline`
 
 Use present tense (e.g. "Add", "Remove", "Fix", "Refactor")
 
@@ -43,21 +43,25 @@ Include scope (e.g. "Payout module" or "User Login")
 
 > Why? Because this increases understanding of what your commit has changes to
 
+
 #### Body (optional)
-- [x] Text wrapped to 72 charaters per line
-- [x] No other text length limitations
-- [x] Provide useful information such as "the why" or your mindset when you wrote this code
+Text wrapped to 72 charaters per line
+
+> Why? Because this keeps a readable length when using `git log`
+
+Provide useful information such as "the why" or your mindset when you wrote this code
+
+> Why? Because this will help future self or others to understand why you wrote that specific implementation
 
 #### Footer (optional)
-- [x] Relevant metadata such as Closes #1 or #time 20m (if using JIRA or similar)
-
+Relevant metadata such as Closes #1 or #time 20m (if using JIRA or similar)
 
 ## Branches
 
-Categorize branches into three types:
+Categorize branches into either of three types:
 
 - /feat
-- /bugfix
+- /hotfix
 - /release
 
 TODO: Add more branch strategy
